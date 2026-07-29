@@ -52,6 +52,7 @@ body{
     display: flex;
     gap: 1rem;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 .produtos-nav a{
     text-decoration: none;
