@@ -33,7 +33,7 @@ body{
 
 }
 
-.hero-banner{
+.header-class{
     width: 100%;
     background-color: rgb(39, 38, 38);
     padding: var(--padding-padrao);
@@ -67,4 +67,35 @@ body{
         background-color: rgba(243, 172, 41, .12);
         border-color: rgb(243, 172, 41);
         color: rgb(230, 228, 228);
+}
+
+.conteudo-principal{
+    height: 100vh;
+}
+
+.hero-banner{
+    height: 70%;
+    width: 100%;
+     background-image:
+        url("../imagens/HeroImage.png"),
+        linear-gradient(
+            to bottom,
+            #fff 0%,
+            #fff 18%,
+            #fff9b0 55%,
+            #fff229 100%
+        );
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center;
+    background-size: contain, cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-banner h1{
+    width: 12ch;
+    font-family: var(--font-text);
+    line-height: 1.5;
+    margin-left: 1.5rem;
 }
