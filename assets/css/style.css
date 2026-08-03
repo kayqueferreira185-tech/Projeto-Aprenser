@@ -130,3 +130,38 @@ body{
     width: 12rem;
     outline: 1px solid red;
 }
+
+.quem-somos {
+    min-height: 35rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nossa-escola {
+    width: 100%;
+    min-height: 25rem;
+    display: flex;
+    background-color: #0b3b6b;
+    background-image: url("../imagens/nossa-escola.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    color: white;
+}
+
+.area-imagem {
+    flex: 1;
+}
+
+.conteudo-escola {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.conteudo-nossa-escola {
+    max-width: 45ch;
+}
