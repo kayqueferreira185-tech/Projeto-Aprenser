@@ -74,7 +74,7 @@ body{
 }
 
 .hero-banner{
-    height: 70%;
+    height: 60%;
     width: 100%;
      background-image:
         url("../imagens/HeroImage.png"),
@@ -98,4 +98,35 @@ body{
     font-family: var(--font-text);
     line-height: 1.5;
     margin-left: 1.5rem;
+}
+
+.area-cursos{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    flex-direction: column;
+   
+}
+.title-cursos{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .18);
+}
+.lista-cursos {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 90%;
+    padding: 1rem;
+    min-height: 20rem;
+    background-color: blue;
+}
+
+
+.produto-curso {
+    padding: 1rem;
+    width: 12rem;
+    outline: 1px solid red;
 }
