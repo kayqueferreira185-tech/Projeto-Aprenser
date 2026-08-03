@@ -69,12 +69,9 @@ body{
         color: rgb(230, 228, 228);
 }
 
-.conteudo-principal{
-    height: 100vh;
-}
 
 .hero-banner{
-    height: 60%;
+    min-height: 60vh;
     width: 100%;
      background-image:
         url("../imagens/HeroImage.png"),
@@ -91,6 +88,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .hero-banner h1{
@@ -101,11 +99,10 @@ body{
 }
 
 .area-cursos{
-    height: 60%;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
     flex-direction: column;
    
 }
@@ -113,15 +110,17 @@ body{
     margin-bottom: 2rem;
     padding: 1rem;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .18);
+    font-family: var(--font-text);
 }
 .lista-cursos {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
-    width: 90%;
+    gap: 2rem;
+    width: 80%;
     padding: 1rem;
     min-height: 20rem;
     background-color: blue;
+    flex-wrap: wrap;
 }
 
 
@@ -134,34 +133,92 @@ body{
 .quem-somos {
     min-height: 35rem;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: center; 
 }
 
 .nossa-escola {
     width: 100%;
     min-height: 25rem;
-    display: flex;
     background-color: #0b3b6b;
-    background-image: url("../imagens/nossa-escola.png");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: contain;
     color: white;
+    
 }
 
 .area-imagem {
     flex: 1;
+    background-image: url("../imagens/nossa-escola.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}
+
+.nossa-escola-inter {
+    width: 100%;
+    max-width: 75rem;
+    min-height: 25rem;
+    margin-inline: auto;
+    display: flex;
+
 }
 
 .conteudo-escola {
-    margin-right: 2rem;
+    flex: 1;
+    padding: 2rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     gap: 1.5rem;
 }
 
+
 .conteudo-nossa-escola {
     max-width: 45ch;
+}
+
+.contatos {
+    min-height: 30rem;
+    padding: 3rem 1.5rem;
+}
+
+.title-contatos {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.conteudo-contatos {
+    width: 100%;
+    max-width: 75rem;
+    margin-inline: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.imagem-mapa {
+    flex: 2;
+    width: 70%;
+}
+
+.texto-contato {
+    flex: 1;
+   align-self: flex-end;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rodape-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5rem;
+    padding: 1rem;
+    background-color: rgb(55, 53, 53);
+    color: white;
 }
