@@ -16,6 +16,6 @@ const cursos = [
     }
 ];
 
-const json = JSON.stringify(cursos);
+const dados = JSON.stringify(cursos);
 
-export {json as default};
+export {dados as default};
