@@ -2,7 +2,7 @@
 
 > Plataforma de cursos desenvolvida para praticar organização de código, manipulação do DOM e renderização dinâmica de conteúdo com JavaScript.
 
-**[🌐 Acessar o projeto] https://kayqueferreira185-tech.github.io/Projeto-Aprenser/**
+[🌐 Acessar o projeto](https://kayqueferreira185-tech.github.io/Projeto-Aprenser/)
 
 ## 📸 Preview
 
@@ -53,6 +53,7 @@ Renderização dinâmica
 DOM
        ↓
 Interface
+```
 
 Essa abordagem permitiu praticar uma separação mais clara entre dados, lógica e apresentação.
 
@@ -87,7 +88,7 @@ git clone https://github.com/kayqueferreira185-tech/Projeto-Aprenser
 
 Entre na pasta:
 
-cd aprenser
+cd Projeto-Aprenser
 
 Abra o projeto no VS Code e execute o index.html no navegador.
 
