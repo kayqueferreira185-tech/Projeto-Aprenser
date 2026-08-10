@@ -18,13 +18,13 @@
 
 
 .logo-link{
+    width: 7rem;
     display: block;
-    background-image: url('../imagens/logoAprenser.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 5rem;
-    height: 3rem;
+}
+.logo-link img{
+    display: block;
+    width: 100%;
+    height: auto;
    
 }
 body{
@@ -41,7 +41,7 @@ body{
 }
 
 .header-inter{
-    width: 90%;
+    width: 80%;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -95,40 +95,80 @@ body{
     width: 12ch;
     font-family: var(--font-text);
     line-height: 1.5;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 .area-cursos{
     min-height: 60vh;
+    width: 100%;
+    max-width: 100rem;
     display: flex;
     align-items: center;
+    margin-inline: auto;
     justify-content: center;
     flex-direction: column;
-   
+    gap: 1.5rem;
 }
 .title-cursos{
-    margin-bottom: 2rem;
+    margin: 2rem 0rem 1.5rem 0rem;
     padding: 1rem;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .18);
     font-family: var(--font-text);
+    font-size: 2.5rem;
 }
 .lista-cursos {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 3rem;
     width: 100%;
-    padding: 1rem;
     min-height: 15rem;
     flex-wrap: wrap;
 }
 .produto-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f4f0f0;
     flex: 1 1 16rem;
     max-width: 16rem;
-    padding: 1rem;
+    border-radius: 1rem;
+    transition: var(--transition),
+    box-shadow var(--transition);
+}
+.conteudo-curso{
+    padding: 1.2rem;
+    font-size: 1rem;
+   
+    
+}
+.titulo-item-curso{
+   padding: 0.5rem;
+}
+.produto-curso:hover{
+    background-color: #e3dede;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
+    transform: translateY(-4px)
+
 }
 .img-curso {
     width: 100%;
     display: block;
+}
+
+.btn-cta{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #fff229;
+    padding: 1em;
+    margin-top: 1rem;
+    border-radius: 1.2rem;
+    transition: var(--transition);
+}
+.btn-cta:hover{
+    transform: scale(1.03);
+    background-color: #ffb800;
+    
 }
 
 .quem-somos {
@@ -179,13 +219,12 @@ body{
 }
 
 .contatos {
-    min-height: 30rem;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .title-contatos {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .conteudo-contatos {
