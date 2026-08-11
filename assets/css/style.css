@@ -39,6 +39,11 @@ body{
     padding: var(--padding-padrao);
     
 }
+.header-class-fixed{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
 
 .header-inter{
     width: 80%;
@@ -98,7 +103,7 @@ body{
     margin-left: 2.5rem;
 }
 
-.area-cursos{
+#area-cursos{
     min-height: 60vh;
     width: 100%;
     max-width: 100rem;
@@ -171,7 +176,7 @@ body{
     
 }
 
-.quem-somos {
+#quem-somos {
     min-height: 35rem;
     display: flex;
     align-items: center; 
@@ -218,13 +223,15 @@ body{
     max-width: 45ch;
 }
 
-.contatos {
+#contatos {
     padding: 2rem 1.5rem;
 }
 
 .title-contatos {
     text-align: center;
     margin-bottom: 3rem;
+    font-size: 2.5rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .18);
 }
 
 .conteudo-contatos {
